@@ -40,7 +40,7 @@ steps:
     displayName: ARM Deployment
     inputs:
       deploymentScope: 'Resource Group'
-      azureResourceManagerConnection: 'Subscription 1(90754b4e-6ff3-4abe-ab3c-17af43493fc1)'
+      azureResourceManagerConnection: 'AzureSPN-MyDevApp'
       subscriptionId: '90754b4e-6ff3-4abe-ab3c-17af43493fc1'
       action: 'Create Or Update Resource Group'
       resourceGroupName: '$(RG)'
