@@ -10,9 +10,9 @@ pool: "default"
 
 variables:
 - name: RG
-  value: 'Guro'
+  value: 'evd_resource_group'
 - name: RG_Location
-  value: 'eastus'
+  value: 'Canada Central'
 - name: Vault
   value: 'GuroKeyVault'
 - name: AppConfig
@@ -40,8 +40,8 @@ steps:
     displayName: ARM Deployment
     inputs:
       deploymentScope: 'Resource Group'
-      azureResourceManagerConnection: 'Azure subscription 1(970fcef5-9c23-4f7d-a11b-5a96d104f066)'
-      subscriptionId: '970fcef5-9c23-4f7d-a11b-5a96d104f066'
+      azureResourceManagerConnection: 'Subscription 1(90754b4e-6ff3-4abe-ab3c-17af43493fc1)'
+      subscriptionId: '90754b4e-6ff3-4abe-ab3c-17af43493fc1'
       action: 'Create Or Update Resource Group'
       resourceGroupName: '$(RG)'
       location: '$(RG_Location)'
