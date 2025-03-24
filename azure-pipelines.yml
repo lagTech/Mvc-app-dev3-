@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool: "default"
+pool: "new_agent_pool"
 
 variables:
 - name: RG
