@@ -18,13 +18,13 @@
       "value": "ApplicationInsights"
     },
     "ServiceBusName": {
-      "value": "GuroSb"
+      "value": "new-namespace-evd"
     },
     "NoSQLname": {
-      "value": "gurocosmos"
+      "value": "mycosmosdev"
     },
     "storageAccountName": {
-      "value": "guroblobstore"
+      "value": "mydevstorage123"
     },
     "storageBlobContainerName1": {
       "value": "unvalidated"
@@ -90,10 +90,10 @@
       "value": false
     },
     "AzureAdClientId": {
-      "value": "c11d2628-cd67-4e13-8cbf-9a12c7fc5fd9"
+      "value": "f11db090-90b9-4815-818c-128abedef6eb"
     },
     "AzureAdDomainName": {
-      "value": "guillaumerouthieruihotmail.onmicrosoft.com"
+      "value": "lacmagoulrichgmail.onmicrosoft.com"
     },
     "ContentSafetyname": {
       "value": "GuroContentSafety"
@@ -125,7 +125,7 @@
       "value": []
     },
     "privateDnsZone": {
-      "value": "[$item.privateDnsZoneConfiguration.integrateWithPrivateDnsZone]"
+      "value": ""
     },
     "isCommitmentPlanForDisconnectedContainerEnabled": {
       "value": false
