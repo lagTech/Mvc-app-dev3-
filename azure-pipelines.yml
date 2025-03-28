@@ -12,27 +12,27 @@ variables:
 - name: RG
   value: 'evd_resource_group'
 - name: RG_Location
-  value: 'Canada Central'
+  value: 'canadacentral'
 - name: Vault
   value: 'GuroKeyVault'
 - name: AppConfig
   value: 'GuroAppConfiguration'
 - name: LogAnalytics
-  value: 'LogAnalyticsName'
+  value: 'LogAnalytics'
 - name: InfrastructureFolder
   value: 'CloudInfrastructure'
 - name: ApplicationInsight
-  value: 'ApplicationInsight'
+  value: 'ApplicationInsights'
 - name: BlobName
-  value: 'guroblobstore'
+  value: 'mydevstorage123'
 - name: BlobContainer1
   value: 'unvalidated'
 - name: BlobContainer2
   value: 'validated'
 - name: SBusName
-  value: 'GuroSb'
+  value: 'new-namespace-evd'
 - name: CosmosDBName
-  value: 'gurocosmo'
+  value: 'mycosmosdev'
 - name: ContentName
   value: 'GuroContentSafety'
 steps:
