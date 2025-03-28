@@ -12,11 +12,11 @@ variables:
 - name: RG
   value: 'evd_resource_group'
 - name: RG_Location
-  value: 'canadacentral'
+  value: 'eastus'
 - name: Vault
   value: 'GuroKeyVault'
 - name: AppConfig
-  value: 'GuroAppConfiguration'
+  value: 'UlrichAppConfiguration'
 - name: LogAnalytics
   value: 'LogAnalytics'
 - name: InfrastructureFolder
@@ -34,7 +34,7 @@ variables:
 - name: CosmosDBName
   value: 'mycosmosdev'
 - name: ContentName
-  value: 'GuroContentSafety'
+  value: 'UlrichContentSafety'
 steps:
   - task: AzureResourceManagerTemplateDeployment@3
     displayName: ARM Deployment
