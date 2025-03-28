@@ -17,8 +17,8 @@ USER root
 RUN apt-get update && apt-get install -y iputils-ping
 
 # Pour le managed identity en Dev seulement.
-ENV AZURE_CLIENT_ID="0e0d6166-bf37-42b1-8d4b-eadea5dffe4b"
-ENV AZURE_CLIENT_SECRET="1DX8Q~2sHQ-6RAs4AX2bNh3wY~JwoXpa2OWEPbi~"
+ENV AZURE_CLIENT_ID="f11db090-90b9-4815-818c-128abedef6eb"
+ENV AZURE_CLIENT_SECRET="Z998Q~OOJICGCTUm4bgtRg7VjXu9pD-d23tSudr1"
 ENV AZURE_TENANT_ID="4e600cb2-6010-4c5a-89c4-43565d26c7b7"
 
 # This stage is used to build the service project
