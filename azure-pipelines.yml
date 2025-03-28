@@ -12,7 +12,7 @@ variables:
 - name: RG
   value: 'evd_resource_group'
 - name: RG_Location
-  value: 'eastus'
+  value: 'canadacentral'
 - name: Vault
   value: 'GuroKeyVault'
 - name: AppConfig
