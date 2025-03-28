@@ -32,7 +32,7 @@ variables:
 - name: SBusName
   value: 'new-namespace-evd1'
 - name: CosmosDBName
-  value: 'mycosmosdev'
+  value: 'mycosmosdev1'
 - name: ContentName
   value: 'UlrichContentSafety'
 steps:
