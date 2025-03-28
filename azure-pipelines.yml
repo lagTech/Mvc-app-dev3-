@@ -30,7 +30,7 @@ variables:
 - name: BlobContainer2
   value: 'validated'
 - name: SBusName
-  value: 'new-namespace-evd'
+  value: 'new-namespace-evd1'
 - name: CosmosDBName
   value: 'mycosmosdev'
 - name: ContentName
