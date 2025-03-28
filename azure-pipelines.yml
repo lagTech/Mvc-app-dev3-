@@ -14,7 +14,7 @@ variables:
 - name: RG_Location
   value: 'eastus'
 - name: Vault
-  value: 'GuroKeyVault'
+  value: 'UlrichKeyVault'
 - name: AppConfig
   value: 'UlrichAppConfiguration'
 - name: LogAnalytics
