@@ -12,7 +12,7 @@ variables:
 - name: RG
   value: 'evd_resource_group'
 - name: RG_Location
-  value: 'canadacentral'
+  value: 'eastus'
 - name: Vault
   value: 'GuroKeyVault'
 - name: AppConfig
@@ -24,7 +24,7 @@ variables:
 - name: ApplicationInsight
   value: 'ApplicationInsights'
 - name: BlobName
-  value: 'mydevstorage123'
+  value: 'mydevstorage1234'
 - name: BlobContainer1
   value: 'unvalidated'
 - name: BlobContainer2
